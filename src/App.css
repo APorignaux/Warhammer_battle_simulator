@@ -116,13 +116,13 @@ div.App header.App-header div.container main.No-master div.Att-Int div.Attack_bu
   display: flex;
   justify-content: center;
 }
-main.master div.Player img.spacemarine {
+main.master div.Player div.spacemarine {
   background-image: url(./image/ironhands.png);
   background-size: cover;
   height: 500px;
   width: 300px;
 }
-main.master div.Xenos img.xenos {
+main.master div.Xenos div.xenos {
   background: url(./image/xenos.png);
   background-repeat: no-repeat;
   background-size: cover;

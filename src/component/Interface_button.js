@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+
 const listeAttaque = [
     "Bolter gun",
     "Omnissian Axe",
@@ -165,12 +166,12 @@ function Button_block() {
                     <div className="Player">
                         <div className="hptext">Player hp : {hp}</div>
                         <div className="Player_Damage_print">{self_damage_counter}</div>
-                        <img className="spacemarine"></img>
+                        <div className="spacemarine"></div>
                     </div>
                     <div className="Xenos">
                         <div>tyranid hp : {hp_Xenos}</div>
                         <div className="Xenos_Damage_print">{damage_counter}</div>
-                        <img className="xenos" ></img>
+                        <div className="xenos" ></div>
                     </div>
                 </main>
                 <main className="No-master">

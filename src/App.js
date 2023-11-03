@@ -2,6 +2,7 @@ import Button_block from './component/Interface_button.js'
 import PlayerBlock from './component/Player.js';
 import XenosBlock from './component/Xenos.js';
 import './App.css';
+import './image/ironhands.png';
 
 
 function App() {
